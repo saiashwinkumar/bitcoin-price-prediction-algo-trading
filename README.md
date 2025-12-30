@@ -14,6 +14,7 @@
 - On-Chain Metrics: Transaction count, active addresses, hash rate (network health indicators).
 - External Factors (for extended models): S&P 500, VIX, and DXY indices (risk-on/risk-off signals).
 - Target variable: next-day average-price log return log(A(t+1)) − log(C(t)), where A = (open+high+low+close)/4 and C = today’s close
+
 Engineered features: 
 1. Momentum and trend: moving averages
 2. Volatility: realized vol (7/30 days)
